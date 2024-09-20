@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: blue;
+    background-image: url(https://t3.ftcdn.net/jpg/03/53/28/08/240_F_353280894_iBAxiLlxo3wkOaXzVqrfv2clWsJtEhMn.jpg);
+    padding: 20px 300px;
+
+    #field{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        gap: 10px;
+    }
+    button{
+        padding: 10px 40px;
+        color: white;
+        gap: 10px;
+        border-radius: 5px;
+        background-color: aqua;
+        font-size: 20px;
+    }
+    #Gender{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        color: white;
+    }
+}
